@@ -1,0 +1,245 @@
+:root {
+    --main-background-color: #f5f8fa;
+    --second-main-background-color: #f2f8fc;
+    --primary-hover-color: #ff903c;
+}
+
+body {
+    background-color: var(--second-main-background-color);
+}
+
+.logo {
+    height: 3rem;
+    width: 11rem;
+}
+
+.navbar {
+    background-color: var(--main-background-color);
+    padding: 0 70px;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: all ease 0.2s;
+    
+}
+
+.nav-link:hover {
+    color: var(--primary-hover-color);
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.btn-dark {
+    padding: 0.5rem 2rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.dropdown-menu {
+    border: none;
+    padding: 0.5rem;
+    box-shadow: rgb(244 155 8 / 20%) 0px 5px 15px;
+    background-color: var(--main-background-color);
+}
+
+.dropdown-menu li a svg {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #ff903c27;
+    color: var(--primary-hover-color);
+}
+
+.dropdown-menu li a {
+    transition: all ease 0.2s;
+}
+
+.dropdown-menu li a:hover {
+    color: var(--primary-hover-color);
+}
+
+.dropdown-menu li a span {
+    font-weight: 500;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 3rem;
+    background: radial-gradient(circle at 24.1% 68.8%,
+            rgb(50, 50, 50) 0%,
+            rgb(0, 0, 0) 99.4%);
+    
+}
+
+
+.contact-us-banner img {
+    width: 100%;
+    max-height: none;
+}
+
+
+.contact-us-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #052c65;
+    padding: 10px 20px;
+}
+
+.banner-text h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+form {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    border-radius: 1.5rem;
+}
+
+form .submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form .submit-button button {
+    padding: 1rem 3.5rem;
+    border-radius: 2rem;
+}
+
+.form-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-heading h3 {
+    font-weight: 1000;
+}
+
+.form-heading h6 {
+    color: #717171d4;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 0.75rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    border: none;
+}
+
+.form-control:focus {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+iframe {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 1.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 1.5rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    html {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    html {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 2048px) {
+    html {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-width: 2160px) {
+    html {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 3840px) {
+    html {
+        font-size: 30px;
+    }
+}
